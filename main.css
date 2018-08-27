@@ -1,0 +1,26 @@
+body {
+  background-color: #9099a2;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 5px;
+  background-color: #d5d5d5;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Color Pallette */
+
+/*
+Dusty #96858F
+Lavendar #6D7993
+Overcast #9099A2
+Paper     #D5D5D5
+*/
