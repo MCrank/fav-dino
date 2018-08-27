@@ -4,14 +4,16 @@ body {
 
 .card-container {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
+  justify-content: space-around;
 }
 
 .bio-card {
-  width: 50%;
-  /* background-color: #96858f; */
+  width: 48%;
+  /*background-color:#96858f*/
   background-color: #6d7993;
-  margin: 20px;
+  padding: 8px;
+  margin: 5px;
 }
 
 .bio-card img {
@@ -25,6 +27,8 @@ body {
 }
 
 .bio-card p {
+  text-align: justify;
+  text-justify: inter-word;
   margin-top: 3px;
 }
 
